@@ -22,23 +22,64 @@ h3 {
 .full{
     width:100%;
 }
-.kirmizi{
-    color:red;
-}
+$kirmizi:#e41e26;
+$beyaz:#fff;
+$mavi:#243573;
+$sari:#f8d50b;
 .cerceve{
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: flex;
+    align-items: center;
     
 }
 .sosyal_bant{
-    background-color: red;
+    background-color:$kirmizi;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .sosyal_medya{
+        i{
+            font-size: 24px;
+            &:hover{
+                color: $mavi;
+            }
+        }
+    }
     
     .telefon{
         margin-left: auto;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.ikonbant{
+    background-color: $mavi;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+// anamenü
+.menubant{
+    border-bottom: 1px solid $mavi;
+}
+.anamenu{
+    display: flex;
+    margin-left: auto;
+    
+    a{
+        color: $mavi;
+        display: inline-block;
+        padding: 10px;
+        
+    }
+        a:hover{
+            color: $beyaz;
+            background-color: $mavi;
+            transition: ease-in-out .4s;
+        }
+    a+a{
+        margin-left: 10px;
+        padding-right: 10px;
     }
 }
 
