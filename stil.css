@@ -2,7 +2,9 @@
 @import url("formalize.css");
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  background-color: #e5e5e5;
+  color: #fff; }
 
 h1 {
   font-size: 48px; }
@@ -12,3 +14,17 @@ h2 {
 
 h3 {
   font-size: 24px; }
+
+.full {
+  width: 100%; }
+
+.kirmizi {
+  color: red; }
+
+.cerceve {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0; }
+
+.sosyal_bant {
+  background-color: red; }
