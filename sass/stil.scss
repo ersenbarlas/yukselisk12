@@ -27,11 +27,18 @@ h3 {
 }
 .cerceve{
     width:80%;
-    margin: 0 auto;
-    padding:10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
     
 }
 .sosyal_bant{
     background-color: red;
+    
+    .telefon{
+        margin-left: auto;
+    }
 }
 
