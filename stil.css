@@ -38,6 +38,10 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px; }
 
+@media screen and (max-width: 400px) {
+  .sosyalbant {
+    display: none; } }
+
 .telefon {
   margin-left: auto; }
   .telefon span {
@@ -46,6 +50,53 @@ h3 {
     font-weight: 600; }
 
 .ikonbant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #201c50;
   padding-top: 10px;
   padding-bottom: 10px; }
+  .ikonbant .logo {
+    position: relative;
+    margin-right: 90px; }
+  .ikonbant .logo img {
+    position: absolute;
+    width: 80px; }
+  .ikonbant h3 {
+    text-transform: uppercase; }
+
+.ikonmenu {
+  margin-left: auto; }
+
+.menubant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #000; }
+  .menubant li + li {
+    margin-left: 10px; }
+  .menubant .anamenu {
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .menubant .anamenu li {
+      display: inline-block; }
+      .menubant .anamenu li a {
+        color: #201c50;
+        padding: 10px; }
+        .menubant .anamenu li a:hover {
+          background-color: #201c50;
+          color: #fff; }
+
+.menubant .sub {
+  padding-top: 5px;
+  margin-left: 90px;
+  text-transform: uppercase;
+  color: #201c50; }

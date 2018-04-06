@@ -7,19 +7,21 @@ body {
     background-color: #e5e5e5;
     color: #fff;
 }
+
 $kirimizi:#ed1c24;
 $mavi:#201c50;
 $sari:#fff200;
-i{
+i {
     color: #fff;
     font-size: 24px;
-    &:hover{
+    &:hover {
         color: $mavi;
     }
-    &+i{
+    &+i {
         margin-left: 10px;
     }
 }
+
 h1 {
     font-size: 48px;
 }
@@ -31,33 +33,89 @@ h2 {
 h3 {
     font-size: 24px;
 }
-.ortala{
+
+.ortala {
     width: 80%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
+
 // Header Kodları
-.header{
+.header {
     width: 100%;
-    .sosyalbant{
+    .sosyalbant {
         background-color: $kirimizi;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
-
-.telefon{
+.sosyalbant{
+    @media screen and (max-width: 400px) {
+        display: none;
+      }
+}
+.telefon {
     margin-left: auto;
-    span{
+    span {
         color: #fff;
         font-size: 24px;
         font-weight: 600;
     }
 }
 
-.ikonbant{
+.ikonbant {
+    display: flex;
+    align-items: center;
     background-color: $mavi;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .logo{
+        position: relative;
+        margin-right: 90px;
+    }
+    .logo img{
+        position: absolute;
+        width: 80px;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+}
+
+.ikonmenu {
+    margin-left: auto;
+}
+.menubant{
+    display: flex;
+    border-bottom: 1px solid #000;
+    li+li{
+        margin-left: 10px;
+    }
+    .anamenu{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        
+        li{
+            display: inline-block;
+            
+
+            a{
+                color: $mavi;
+                padding: 10px;
+                &:hover{
+                    background-color:$mavi;
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}
+.menubant .sub{
+    padding-top: 5px;
+    margin-left: 90px;
+    text-transform: uppercase;
+    color:$mavi;
 }
