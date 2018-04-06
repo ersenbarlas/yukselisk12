@@ -7,7 +7,19 @@ body {
     background-color: #e5e5e5;
     color: #fff;
 }
-
+$kirimizi:#ed1c24;
+$mavi:#201c50;
+$sari:#fff200;
+i{
+    color: #fff;
+    font-size: 24px;
+    &:hover{
+        color: $mavi;
+    }
+    &+i{
+        margin-left: 10px;
+    }
+}
 h1 {
     font-size: 48px;
 }
@@ -19,67 +31,33 @@ h2 {
 h3 {
     font-size: 24px;
 }
-.full{
-    width:100%;
-}
-$kirmizi:#e41e26;
-$beyaz:#fff;
-$mavi:#243573;
-$sari:#f8d50b;
-.cerceve{
-    width:80%;
+.ortala{
+    width: 80%;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
-    
 }
-.sosyal_bant{
-    background-color:$kirmizi;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    .sosyal_medya{
-        i{
-            font-size: 24px;
-            &:hover{
-                color: $mavi;
-            }
-        }
-    }
-    
-    .telefon{
-        margin-left: auto;
-        font-size: 18px;
-        font-weight: 600;
-    }
-}
-.ikonbant{
-    background-color: $mavi;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-// anamenü
-.menubant{
-    border-bottom: 1px solid $mavi;
-}
-.anamenu{
-    display: flex;
-    margin-left: auto;
-    
-    a{
-        color: $mavi;
-        display: inline-block;
-        padding: 10px;
-        
-    }
-        a:hover{
-            color: $beyaz;
-            background-color: $mavi;
-            transition: ease-in-out .4s;
-        }
-    a+a{
-        margin-left: 10px;
-        padding-right: 10px;
+// Header Kodları
+.header{
+    width: 100%;
+    .sosyalbant{
+        background-color: $kirimizi;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
+.telefon{
+    margin-left: auto;
+    span{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.ikonbant{
+    background-color: $mavi;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}

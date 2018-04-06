@@ -6,6 +6,14 @@ body {
   background-color: #e5e5e5;
   color: #fff; }
 
+i {
+  color: #fff;
+  font-size: 24px; }
+  i:hover {
+    color: #201c50; }
+  i + i {
+    margin-left: 10px; }
+
 h1 {
   font-size: 48px; }
 
@@ -15,55 +23,29 @@ h2 {
 h3 {
   font-size: 24px; }
 
-.full {
-  width: 100%; }
-
-.cerceve {
+.ortala {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  margin-left: auto;
+  margin-right: auto; }
 
-.sosyal_bant {
-  background-color: #e41e26;
-  padding-top: 5px;
-  padding-bottom: 5px; }
-  .sosyal_bant .sosyal_medya i {
-    font-size: 24px; }
-    .sosyal_bant .sosyal_medya i:hover {
-      color: #243573; }
-  .sosyal_bant .telefon {
-    margin-left: auto;
-    font-size: 18px;
+.header {
+  width: 100%; }
+  .header .sosyalbant {
+    background-color: #ed1c24;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.telefon {
+  margin-left: auto; }
+  .telefon span {
+    color: #fff;
+    font-size: 24px;
     font-weight: 600; }
 
 .ikonbant {
-  background-color: #243573;
+  background-color: #201c50;
   padding-top: 10px;
   padding-bottom: 10px; }
-
-.menubant {
-  border-bottom: 1px solid #243573; }
-
-.anamenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto; }
-  .anamenu a {
-    color: #243573;
-    display: inline-block;
-    padding: 10px; }
-  .anamenu a:hover {
-    color: #fff;
-    background-color: #243573;
-    -webkit-transition: ease-in-out .4s;
-    transition: ease-in-out .4s; }
-  .anamenu a + a {
-    margin-left: 10px;
-    padding-right: 10px; }
