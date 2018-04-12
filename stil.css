@@ -23,80 +23,47 @@ h2 {
 h3 {
   font-size: 24px; }
 
-.ortala {
+.w80 {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: auto;
   margin-right: auto; }
 
-.header {
-  width: 100%; }
-  .header .sosyalbant {
-    background-color: #ed1c24;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-
-@media screen and (max-width: 400px) {
-  .sosyalbant {
-    display: none; } }
-
-.telefon {
-  margin-left: auto; }
-  .telefon span {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600; }
-
-.ikonbant {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #201c50;
+.sosyalbant {
+  background-color: #ed1c24;
   padding-top: 10px;
   padding-bottom: 10px; }
-  .ikonbant .logo {
-    position: relative;
-    margin-right: 90px; }
-  .ikonbant .logo img {
-    position: absolute;
-    width: 80px; }
-  .ikonbant h3 {
-    text-transform: uppercase; }
 
-.ikonmenu {
-  margin-left: auto; }
+.tasiyici {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 576px) {
+    .tasiyici {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
-.menubant {
+.sosyalikon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 576px) {
+    .sosyalikon {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+.telefon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #000; }
-  .menubant li + li {
-    margin-left: 10px; }
-  .menubant .anamenu {
-    margin-left: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .menubant .anamenu li {
-      display: inline-block; }
-      .menubant .anamenu li a {
-        color: #201c50;
-        padding: 10px; }
-        .menubant .anamenu li a:hover {
-          background-color: #201c50;
-          color: #fff; }
-
-.menubant .sub {
-  padding-top: 5px;
-  margin-left: 90px;
-  text-transform: uppercase;
-  color: #201c50; }
+  margin-left: auto; }
+  @media (max-width: 576px) {
+    .telefon {
+      padding-top: 10px;
+      font-size: 1.2em;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-left: 0; } }
