@@ -69,3 +69,36 @@ h3 {
      }
 }
 
+///////////ikon menü///////////////////
+.ikonmenu{
+    background-color: $mavi;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ikonmenu-ikon{
+    display: flex;
+   align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.ikon-box{
+    margin-left: auto;
+    background-color: $sari;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 2px;
+    color: $mavi;
+    
+    i{
+        margin-right: 10px;
+        font-size: 2em;
+        color: $mavi;
+    }
+    &+.ikon-box{
+        margin-left: 10px;
+    }
+}
+
+

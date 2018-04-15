@@ -67,3 +67,38 @@ h3 {
           -ms-flex-pack: center;
               justify-content: center;
       margin-left: 0; } }
+
+.ikonmenu {
+  background-color: #201c50;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.ikonmenu-ikon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.logo img {
+  width: 100px; }
+
+.ikon-box {
+  margin-left: auto;
+  background-color: #fff200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #fff;
+  padding: 2px;
+  color: #201c50; }
+  .ikon-box i {
+    margin-right: 10px;
+    font-size: 2em;
+    color: #201c50; }
+  .ikon-box + .ikon-box {
+    margin-left: 10px; }
